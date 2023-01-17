@@ -1,0 +1,52 @@
+body {
+    background-color: rgba(233, 18, 18, 0.26);
+}
+
+#logo {
+    width: 300px;
+    height: 150px;
+    float:left;
+    padding: 40px 40px 0px 500px;
+}
+h1 {
+    padding-top: 80px;
+    font-size: 50px;
+}
+#text1 {
+    font-size: 50px;
+    margin-top: 200px;
+    text-align: center;
+    border:2px solid red;
+    background-color: red;
+    border-radius: 30px;
+}
+.redfilm {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 40px;
+    padding-right: 0px;
+    align-content:flex-start;
+}
+.imgop {
+    width: 400px;
+    height: 600px;
+}
+.contentbox {
+    text-align: center;
+    font-size: 30px;
+    background-color: red;
+    border-radius: 10px;
+}
+.img-redfilm:hover {
+    transform: translate(0,-30px);
+    box-shadow: 20px 20px 20px green;
+    color: yellow;
+}
+.img-redfilm {
+    transition: 1s;
+}
+a {
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
