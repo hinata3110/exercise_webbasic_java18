@@ -22,7 +22,7 @@ h1 {
 }
 .redfilm {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     gap: 40px;
     padding-right: 0px;
     align-content:flex-start;
